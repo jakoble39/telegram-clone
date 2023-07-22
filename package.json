@@ -1,17 +1,26 @@
 {
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "eslint": "^8.0.1",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^9.15.1",
+    "postcss": "^8.4.27",
+    "sass": "^1.64.1",
+    "tailwindcss": "^3.3.3",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.1",
     "vite": "^4.4.6",
     "vite-plugin-rails": "^0.1.0"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
-    "vue": "^3.2.36",
-    "vue-loader": "^17.0.1"
+    "element-plus": "^2.3.8",
+    "pinia": "^2.1.4",
+    "vue": "^3.3.4",
+    "vue-loader": "^17.0.1",
+    "vue-router": "4"
   }
 }
