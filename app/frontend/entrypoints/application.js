@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 
 import App from '../components/App.vue'
 
-createApp(App).mount("#app")
+createApp(App).mount('#app')
 
 // Example: Load Rails libraries in Vite.
 //

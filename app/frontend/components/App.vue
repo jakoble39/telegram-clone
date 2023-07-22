@@ -1,8 +1,7 @@
 <template>
-	Hello from Vue3
+Hello from Vue3
 </template>
 
 <script setup>
 
 </script>
-
