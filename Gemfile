@@ -21,7 +21,8 @@ gem 'puma', '~> 5.0'
 gem 'jbuilder'
 
 # Use Redis adapter to run Action Cable in production
-# gem "redis", "~> 4.0"
+gem 'redis'
+gem 'redis-actionpack'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -44,6 +45,18 @@ gem 'bootsnap', require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'pry'
+  gem 'pry-rails'
+  gem 'rspec-rails', '~> 6.0.0'
+  gem 'factory_bot'
+  gem 'factory_bot_rails'
+  gem 'faker'
+  gem 'graphiql-rails'
+end
+
+group :test do
+  gem 'database_cleaner-active_record'
+  gem 'database_cleaner-redis'
 end
 
 group :development do
@@ -59,3 +72,10 @@ group :development do
 end
 
 gem 'vite_rails', '~> 3.0'
+
+gem 'dotenv', '~> 2.8'
+
+gem 'graphql'
+gem 'bcrypt'
+
+gem "redcord", "~> 0.2.2"

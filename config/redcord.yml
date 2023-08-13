@@ -1,0 +1,11 @@
+development:
+  default:
+    url: <%= ENV.fetch("REDIS_URL") { "redis://127.0.0.1:6379" } %>/opengram/1
+
+test:
+  default:
+    url: <%= ENV.fetch("REDIS_URL") { "redis://127.0.0.1:6379" } %>/opengram/2
+
+production:
+  default:
+    url: <%= ENV.fetch("REDIS_URL") { "redis://127.0.0.1:6379" } %>/opengram/3
