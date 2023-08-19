@@ -38,13 +38,13 @@
 </template>
 
 <script setup>
-import { formatDate } from "@/helpers/utils";
-import DoubleCheck from "@/icons/DoubleCheck.vue";
+import { formatDate } from "@/helpers/utils"
+import DoubleCheck from "@/icons/DoubleCheck.vue"
 
 defineProps({
   chat: {
     type: Object,
     required: true,
   },
-});
+})
 </script>

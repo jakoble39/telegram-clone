@@ -20,5 +20,7 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["vue"],
-  rules: {},
-};
+  rules: {
+    "semi": ["error", "never"]
+  },
+}

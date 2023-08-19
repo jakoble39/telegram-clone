@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import { ChatDotRound } from "@element-plus/icons-vue";
+import { ChatDotRound } from "@element-plus/icons-vue"
 
-const items = [{ id: 0, icon: ChatDotRound, text: "All Chats" }];
+const items = [{ id: 0, icon: ChatDotRound, text: "All Chats" }]
 </script>

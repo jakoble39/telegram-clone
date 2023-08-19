@@ -9,9 +9,9 @@
 </template>
 
 <script setup>
-import NavSidebar from "./NavSidebar.vue";
-import ChatSidebar from "./ChatSidebar.vue";
-import ChatView from "./ChatView.vue";
+import NavSidebar from "./NavSidebar.vue"
+import ChatSidebar from "./ChatSidebar.vue"
+import ChatView from "./ChatView.vue"
 
 const currentChat = {
   id: 1,
@@ -47,5 +47,5 @@ const currentChat = {
       },
     },
   ],
-};
+}
 </script>

@@ -56,30 +56,30 @@
 </template>
 
 <script setup>
-import { formatDate } from "@/helpers/utils";
-import DoubleCheck from "@/icons/DoubleCheck.vue";
-import { ref } from "vue";
+import { formatDate } from "@/helpers/utils"
+import DoubleCheck from "@/icons/DoubleCheck.vue"
+import { ref } from "vue"
 
 defineProps({
   chat: {
     type: Object,
     required: true,
   },
-});
+})
 
-const message = ref("");
+const message = ref("")
 
 const sendMessage = (e) => {
-  e.preventDefault();
-  console.log(message.value);
-  message.value = "";
-};
+  e.preventDefault()
+  console.log(message.value)
+  message.value = ""
+}
 
 const statusString = (user) => {
   if (user.status === "online") {
-    return "Online";
+    return "Online"
   } else if (user.status === "offline") {
-    return `Last seen ${formatDate(user.lastSeen)}`;
+    return `Last seen ${formatDate(user.lastSeen)}`
   }
-};
+}
 </script>

@@ -8,7 +8,13 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { useAuthStore } from "~/stores/useAuth"
+
+const authStore = useAuthStore()
+
+authStore.login("flameaxio@gmail.com", "abc123")
+</script>
 
 <style lang="scss">
 .app-main {

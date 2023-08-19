@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-import ChatItem from "./ChatItem.vue";
+import ChatItem from "./ChatItem.vue"
 
 const chats = [
   {
@@ -41,5 +41,5 @@ const chats = [
     },
     unreadCount: 1,
   },
-];
+]
 </script>

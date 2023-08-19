@@ -18,9 +18,14 @@
     "vite-plugin-rails": "^0.1.0"
   },
   "dependencies": {
+    "@apollo/client": "^3.8.1",
     "@element-plus/icons-vue": "^2.1.0",
     "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/apollo-components": "^4.0.0-beta.5",
+    "@vue/apollo-option": "^4.0.0-beta.5",
     "element-plus": "^2.3.8",
+    "graphql": "^16.8.0",
+    "graphql-tag": "^2.12.6",
     "moment": "^2.29.4",
     "pinia": "^2.1.4",
     "vue": "^3.3.4",
